@@ -15,14 +15,38 @@ margin: 0 0 0 0;
     background-color: white;
 }
 
+.header-right-panel img {
+    float:right;
+    margin: 0 10px 0 0;
+    height:100px;
+}
+
 .logo {float:left;
        margin: 25px 0 0 25px;
 }
 
-.display-wrapper {
-    margin:25px 0 0 0;
-    height: 400px;
-    width: 100%;
+banner-display {
+    float: left;
+    height:100px;
+    }
+
+.box-wrapper {
+    width:100%;
+    height:400px;
     background-color:blue;
 }
 
+.box-wrapper div {
+    display: inline-block;
+    text-align:center;
+}
+.box-left {
+    height: 200px;
+    width: 500px;
+    background-color: yellow;
+}
+.box-right {
+    height:200px;
+    width: 500px;
+    background-color:red;
+    }
