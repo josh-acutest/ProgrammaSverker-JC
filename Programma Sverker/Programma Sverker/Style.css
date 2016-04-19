@@ -1,9 +1,9 @@
 ﻿body {
     margin: 0 0 0 0;
-    background-image: url('Images/background_1pix.png');
+    /*background-image: url('Images/background_1pix.png');
     background-position: 50px 0px;
     background-size: 300px 1000px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 h1 {
@@ -11,12 +11,15 @@ h1 {
     font-family: sans-serif;
 }
 
+h2 {
+    color:white;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+
 .container {
     width:100%;
     height:1000px;
-    margin:20px auto;
-
-
 }
 
 .header {
@@ -43,7 +46,7 @@ banner-display {
 .box-wrapper {
     width:100%;
     height:400px;
-    background-color:blue;
+    background-color:#302c79;
 }
 
 .box-wrapper div {
@@ -53,6 +56,11 @@ banner-display {
     float:left;
     margin:0 25px 0 50px;
 }
+.product-image {
+    border: solid 2px white;
+    border-radius:5px;
+}
+
 .box-right {
     height:200px;
     width: 500px;
@@ -71,10 +79,67 @@ banner-display {
 }
 
 .box-right .box-right-button {
-    background-color:red;
+    background-color:#9a161a;
     display:inline-block;
     margin-right:10px;
-    border: 5px solid red;
+    border: 10px solid #911419;
+    border-radius: 5px;
     color:white;
+    font-size:20px;
+}
 
+.content-left {
+    float:left;
+    height:700px;
+    width:300px;
+    margin: 0 0 0 50px;
+    text-align: center;
+    background-image: url('Images/background_1pix.png');
+    background-position: 0px 0px;
+    background-size: 300px 700px;
+    background-repeat: no-repeat;
+
+}
+
+.content-left-demo {
+    color: #022a50;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.content-left-demo-text {
+    color:#022a50;
+    font-size:18px;
+    font-family:sans-serif;
+}
+
+
+.content-right {
+    float:left;
+    height:350px;
+    width:800px;
+    padding: 10px;
+    margin: 0 50px 0 25px;
+}
+
+.content-right-header {
+    font-size: 20px;
+    font-family:sans-serif;
+    color:#317eac;
+
+}
+
+.content-box-right {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top:20px;
+}
+
+.footer {
+    position:absolute;
+    width:100%;
+    height:150px;
+    bottom: -700px;
+    background-color:#302c79;
 }
