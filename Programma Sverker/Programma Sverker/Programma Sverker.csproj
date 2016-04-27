@@ -74,10 +74,12 @@
     <Content Include="Images\acutest_direct_button.png" />
     <Content Include="Images\acute_training_image.png" />
     <Content Include="Images\background_1pix.png" />
+    <Content Include="Images\calibration.png" />
     <Content Include="Images\cal_repair_button.png" />
     <Content Include="Images\sverker-display.png" />
     <Content Include="Images\sverker_product.png" />
     <Content Include="Images\sverk_bground.png" />
+    <Content Include="Images\training.png" />
     <Content Include="Images\training_button.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
