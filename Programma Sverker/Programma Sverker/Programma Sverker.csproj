@@ -79,6 +79,10 @@
     <Content Include="Images\sverker-display.png" />
     <Content Include="Images\sverker_product.png" />
     <Content Include="Images\sverk_bground.png" />
+    <Content Include="Images\toplink1.png" />
+    <Content Include="Images\toplink2.png" />
+    <Content Include="Images\toplink3.png" />
+    <Content Include="Images\toplink4.png" />
     <Content Include="Images\training.png" />
     <Content Include="Images\training_button.png" />
     <Content Include="packages.config" />

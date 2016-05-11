@@ -1,11 +1,102 @@
-﻿.header {
-    height: 125px;
-    background-color: white;
-    text-align: center;
+body {
+    overflow-x: hidden;
 }
 
-.header-2 {
-    background-color: #333333;
-    text-align:center;
-    color: white;
+h2 {
+    color:white! important;
+    font-family: sans-serif;
 }
+
+h3 {
+    color: #2c2a79;
+}
+
+.header {
+    height: 125px;
+    background-color: white;
+    padding: 1px;
+}
+
+.top-links ul li{
+    display: inline-block;
+}
+
+.logo {
+    
+}
+
+.header-below {
+   text-align:center;
+   background-color: #333333;
+   height:250px;
+   border-bottom: 10px solid #2c2a79;
+   margin: 0 0 10px 0;
+}
+
+.text-std {
+    color:white;
+    font-family: sans-serif;
+    max-width:50%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.image-wrapper {
+text-align: center;
+}
+
+.products-nav {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.products-nav h3 {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+.box-test {
+    height:300px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: #333333;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.main-content {
+    font-size: 16px;
+}
+
+.contact-form h4 {
+ margin-top: 20px;
+ color:black;
+ font-size: 30px;
+ margin-left:15px;
+}
+
+.contact-form {
+    margin-left:20px;
+    height: 300px;
+    font-family: sans-serif;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.contact-form p {
+    color: #333333;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+/*input {
+    border: 1px solid #2c2a79;
+    width: 80%;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    height: 30px;
+}*/
