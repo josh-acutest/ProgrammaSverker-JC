@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 body {
+=======
+﻿body {
+>>>>>>> origin/master
     overflow-x: hidden;
 }
 
@@ -11,6 +15,7 @@ h3 {
     color: #2c2a79;
 }
 
+<<<<<<< HEAD
 .header {
     height: 125px;
     background-color: white;
@@ -50,6 +55,44 @@ text-align: center;
     border-bottom: 1px solid grey;
 }
 
+=======
+.fluid-container {
+    height:1200px;
+}
+
+.header {
+    height: 125px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header-below {
+   text-align:center;
+   background-color: #333333;
+   height:250px;
+   border-bottom: 10px solid #2c2a79;
+   margin: 0 0 10px 0;
+}
+
+.text-std {
+    color:white;
+    font-family: sans-serif;
+    max-width:50%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.image-wrapper {
+text-align: center;
+}
+
+.products-nav {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+>>>>>>> origin/master
 .products-nav h3 {
         display: inline-block;
         margin-right: 10px;
